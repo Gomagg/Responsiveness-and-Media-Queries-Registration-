@@ -1,0 +1,96 @@
+/* To check if the @media works try setting your desktop screen to 1440px and down to 375px mobile screen */
+@media screen and (max-width:1440px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("bg/bg-intro-desktop.png");
+        color: white;
+        font-size: 16px;
+    }
+    .align {
+        margin: auto;
+        width: 700px;
+        padding-top: 200px;
+        flex-basis: 80%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("bg/bg-intro-mobile.png");
+        color: white;
+        font-size: 16px;
+    }
+    .align {
+        margin: auto;
+        width: 700px;
+        padding-top: 200px;
+        flex-basis: 33%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+
+#p1 {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 8px 1px rgba(136, 136, 136, 0.432);
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+    padding-right: 87px;
+    padding-left: 87px;
+}
+/* .align {
+    margin: auto;
+    width: 700px;
+    padding-top: 200px;
+    flex-basis: 100%;
+    display: flex;
+} */
+
+.formR {
+    background-color: white;
+    padding: 7px;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 1px rgba(136, 136, 136, 0.438);
+}
+
+.learn {
+    padding-top: 100px;
+    margin-right: 20px;
+}
+
+form{
+    text-align: center;
+    padding: 5px;
+    
+}
+input{
+    height: 30px;
+    border-style: dashed 1px hsl(240, 1%, 39%);
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.p3{
+    font-size: 10pt;
+    text-align: center;
+}
